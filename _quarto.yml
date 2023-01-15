@@ -20,7 +20,7 @@ website:
     logo: altair-hist.png
     contents:
       - index.md
-      - section: Curriculum
+      - section: Altair
         contents:
           - docs/altair_introduction.ipynb
           - docs/altair_marks_encoding.ipynb
