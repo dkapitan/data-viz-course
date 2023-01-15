@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: public
+  
+website:
+  title: Data visualization course
+  repo-url: https://github.com/dkapitan/data-viz-course
+  repo-branch: master
+  repo-actions: [issue]
+  sidebar:
+    search: true
+    tools:
+        - icon: github
+          href: https://github.com/dkapitan/data-viz-course
+          text: "https://github.com/dkapitan/data-viz-course"
+    logo: altair-hist.png
+    contents:
+      - index.md
+      - section: Curriculum
+        contents:
+          - altair_introduction.ipynb
+          - altair_marks_encoding.ipynb
+          - altair_data_transformation.ipynb
+          - altair_scales_axes_legends.ipynb
+          - altair_view_composition.ipynb
+          - altair_interaction.ipynb
+          - altair_cartographic.ipynb
+      - section: Support
+        contents:
+          - altair_debugging.ipynb
+
+format:
+  html:
+    theme: cosmo
+
