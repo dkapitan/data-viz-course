@@ -4,32 +4,39 @@ project:
   
 website:
   title: Data visualization course
+  page-footer:
+    background: dark
+    center:
+      - text: "© Copyright Daniel Kapitan Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), 2023"
   repo-url: https://github.com/dkapitan/data-viz-course
   repo-branch: master
-  repo-actions: [issue]
+  repo-actions: [edit, issue]
   sidebar:
     search: true
-    tools:
-        - icon: github
-          href: https://github.com/dkapitan/data-viz-course
-          text: "https://github.com/dkapitan/data-viz-course"
+    # tools:
+    #     - icon: github
+    #       href: https://github.com/dkapitan/data-viz-course
+    #       text: "https://github.com/dkapitan/data-viz-course"
     logo: altair-hist.png
     contents:
       - index.md
       - section: Curriculum
         contents:
-          - altair_introduction.ipynb
-          - altair_marks_encoding.ipynb
-          - altair_data_transformation.ipynb
-          - altair_scales_axes_legends.ipynb
-          - altair_view_composition.ipynb
-          - altair_interaction.ipynb
-          - altair_cartographic.ipynb
+          - docs/altair_introduction.ipynb
+          - docs/altair_marks_encoding.ipynb
+          - docs/altair_data_transformation.ipynb
+          - docs/altair_scales_axes_legends.ipynb
+          - docs/altair_view_composition.ipynb
+          - docs/altair_interaction.ipynb
+          - docs/altair_cartographic.ipynb
       - section: Support
         contents:
-          - altair_debugging.ipynb
-
+          - docs/altair_debugging.ipynb
+toc: true
 format:
   html:
-    theme: cosmo
+    theme: zephyr
+    code-link: true
+execute:
+  freeze: true
 
