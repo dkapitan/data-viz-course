@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: public
+  output-dir: _site
   
 website:
   title: Data visualization course
@@ -38,5 +38,5 @@ format:
     theme: zephyr
     code-link: true
 execute:
-  freeze: true
+  freeze: auto
 

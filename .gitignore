@@ -6,5 +6,5 @@
 .venv/
 .condaenv/
 .ipynb_checkpoints/
-public/*
+_site/*
 videos/*
