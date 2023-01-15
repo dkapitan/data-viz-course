@@ -1,0 +1,1 @@
+Sitemap: https://github.com/dkapitan/data-viz-course/sitemap.xml
