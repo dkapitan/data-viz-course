@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_scales_axes_legends.html</loc>
-    <lastmod>2023-01-15T22:58:34.742Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_interaction.html</loc>
+    <lastmod>2023-01-16T00:37:41.157Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_view_composition.html</loc>
-    <lastmod>2023-01-15T22:58:36.082Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_debugging.html</loc>
+    <lastmod>2023-01-16T00:37:41.603Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_marks_encoding.html</loc>
-    <lastmod>2023-01-15T22:58:37.354Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_introduction.html</loc>
+    <lastmod>2023-01-16T00:37:42.250Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_cartographic.html</loc>
-    <lastmod>2023-01-15T22:58:38.606Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_cartographic.html</loc>
+    <lastmod>2023-01-16T00:37:43.148Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_interaction.html</loc>
-    <lastmod>2023-01-15T22:58:39.514Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_data_transformation.html</loc>
+    <lastmod>2023-01-16T00:37:43.900Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_debugging.html</loc>
-    <lastmod>2023-01-15T22:58:40.186Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_marks_encoding.html</loc>
+    <lastmod>2023-01-16T00:37:44.696Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_introduction.html</loc>
-    <lastmod>2023-01-15T22:58:41.286Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_scales_axes_legends.html</loc>
+    <lastmod>2023-01-16T00:37:45.308Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/docs/altair_data_transformation.html</loc>
-    <lastmod>2023-01-15T22:58:42.610Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/docs/altair_view_composition.html</loc>
+    <lastmod>2023-01-16T00:37:45.947Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/dkapitan/data-viz-course/index.html</loc>
-    <lastmod>2023-01-15T22:58:43.010Z</lastmod>
+    <loc>https://dkapitan.github.io/data-viz-course/index.html</loc>
+    <lastmod>2023-01-16T00:37:46.278Z</lastmod>
   </url>
 </urlset>

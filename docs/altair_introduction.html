@@ -205,22 +205,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../docs/altair_cartographic.html" class="sidebar-item-text sidebar-link">Cartographic Visualization</a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Support</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../docs/altair_debugging.html" class="sidebar-item-text sidebar-link">Altair Debugging Guide</a>
   </div>
 </li>
       </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">Streamlit</span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">Quarto</span>
   </li>
     </ul>
     </div>
@@ -264,7 +260,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>By <em>declarative</em>, we mean that you can provide a high-level specification of <em>what</em> you want the visualization to include, in terms of <em>data</em>, <em>graphical marks</em>, and <em>encoding channels</em>, rather than having to specify <em>how</em> to implement the visualization in terms of for-loops, low-level drawing commands, <em>etc</em>. The key idea is that you declare links between data fields and visual encoding channels, such as the x-axis, y-axis, color, <em>etc</em>. The rest of the plot details are handled automatically. Building on this declarative plotting idea, a surprising range of simple to sophisticated visualizations can be created using a concise grammar.</p>
 <p>Altair is based on <a href="https://vega.github.io/vega-lite/">Vega-Lite</a>, a high-level grammar of interactive graphics. Altair provides a friendly Python <a href="https://en.wikipedia.org/wiki/Application_programming_interface">API (Application Programming Interface)</a> that generates Vega-Lite specifications in <a href="https://en.wikipedia.org/wiki/JSON">JSON (JavaScript Object Notation)</a> format. Environments such as Jupyter Notebooks, JupyterLab, and Colab can then take this specification and render it directly in the web browser. To learn more about the motivation and basic concepts behind Altair and Vega-Lite, watch the <a href="https://www.youtube.com/watch?v=9uaHRWj04D4">Vega-Lite presentation video from OpenVisConf 2017</a>.</p>
 <p>This notebook will guide you through the basic process of creating visualizations in Altair. First, you will need to make sure you have the Altair package and its dependencies installed (for more, see the <a href="https://altair-viz.github.io/getting_started/installation.html">Altair installation documentation</a>), or you are using a notebook environment that includes the dependencies pre-installed.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe src="https://player.vimeo.com/video/789513744" frameborder="0" allow="autoplay; title=" "="" fullscreen;="" picture-in-picture"="" allowfullscreen=""></iframe></div>
 <section id="imports" class="level2">
 <h2 class="anchored" data-anchor-id="imports">Imports</h2>
 <p>To start, we must import the necessary libraries: Pandas for data frames and Altair for visualization.</p>

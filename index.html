@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data visualization course</title>
+<title>Data visualization course - Introduction</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"></h1>
+      <h1 class="quarto-secondary-nav-title">Introduction</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -139,16 +139,6 @@ ul.task-list li input[type="checkbox"] {
   <a href="./docs/altair_cartographic.html" class="sidebar-item-text sidebar-link">Cartographic Visualization</a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Support</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./docs/altair_debugging.html" class="sidebar-item-text sidebar-link">Altair Debugging Guide</a>
@@ -156,69 +146,77 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">Streamlit</span>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">Quarto</span>
+  </li>
     </ul>
     </div>
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a>
-  <ul class="collapse">
-  <li><a href="#local-installation" id="toc-local-installation" class="nav-link" data-scroll-target="#local-installation">Local Installation</a></li>
-  </ul></li>
-  <li><a href="#credits" id="toc-credits" class="nav-link" data-scroll-target="#credits">Credits</a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dkapitan/data-viz-course/edit/master/index.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dkapitan/data-viz-course/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Introduction</h1>
+</div>
 
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1>
-<p>A data visualization curriculum of interactive notebooks, using <a href="https://vega.github.io/vega-lite/">Vega-Lite</a> and <a href="https://altair-viz.github.io/">Altair</a>. This book contains a series of Python-based Jupyter notebooks, a corresponding set of JavaScript notebooks are available online on <a href="https://observablehq.com/@uwdata/data-visualization-curriculum">Observable</a>.</p>
-<div class="callout-note callout callout-style-simple">
-<div class="callout-body d-flex">
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><img src="images/python-visualization-landscape.png" class="img-fluid"></p>
+<p>The Zen of Python states that:</p>
+<blockquote class="blockquote">
+<p><em>“There should be one– and preferably only one –obvious way to do it.”</em></p>
+</blockquote>
+<p>The Python visualization landscape shown above doesn’t quite live up to this mantra. While R users have a clear standard for interactive data visualization and dashboarding with <a href="https://ggplot2.tidyverse.org/">ggplot2</a> and <a href="https://shiny.rstudio.com">Shiny</a>, Pythonista’s are spoiled for choice.</p>
+<p>Upon closer inspection, however, one could argue that the library that supports your <em>thinking</em> as a data scientist, is the best one to use in your data science project. So if we were to choose a library specifically for the purpose of Exploratory Data Analysis (EDA) and presenting the results from a data science project in an interactive document (dashboard, app), which one would it be? And why?</p>
+<p>These questions are adressed in the following two lectures, which introduce Altair and the underlying grammar of interactive graphics from Vega and Vega-Lite.</p>
+<div class="callout-note callout callout-style-simple callout-captioned">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>This book was originally created using <a href="https://jupyterbook.org/">Jupyter Book</a> and published at <a href="https://uwdata.github.io/visualization-curriculum/" class="uri">https://uwdata.github.io/visualization-curriculum/</a>. This site is a port of the original book source to the <a href="https://quarto.org">Quarto</a> publishing system in order to provide an example of it’s use.</p>
+<div class="callout-caption-container flex-fill">
+Exploratory Data Analysis (EDA)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The term Exploratory Data Analysis (EDA) is mostly attributed to Tukey (1977). In EDA, one’s aim is not to draw conclusions on predefined research questions (be it the construction of a model, the estimation of parameters, or the confirmation or rejection of a hypothesis); in fact, EDA in problem solving is often applied to data collected without well-defined hypotheses. In EDA, one screens the data for clues that could inspire ideas and hypotheses.</p>
+<p>Read the <a href="bibliography/demast2009principles.pdf">paper by de Mast &amp; Kemper (2009)</a> to understand what the purpose of EDA and how it fits in the context of a data science project.</p>
 </div>
 </div>
 </div>
-<section id="getting-started" class="level2">
-<h2 class="anchored" data-anchor-id="getting-started">Getting Started</h2>
-<p>The visualization curriculum can be used either online or on your local computer. You can view and interact with the plots directly in this Jupyter Book. If you want to modify the code, you have a few different options:</p>
-<ul>
-<li>To read JavaScript notebooks online using <a href="https://observablehq.com/">Observable</a>, navigate to the “Observable” page above and click the corresponding notebook.</li>
-<li>To read Python notebooks online using <a href="https://colab.research.google.com/">Colab</a>, click the corresponding section in this book, hover over the little rocket ship at the top of the page, and select “Colab” from the menu.</li>
-<li>To read Python notebooks locally, follow the instructions below.</li>
-</ul>
-<section id="local-installation" class="level3">
-<h3 class="anchored" data-anchor-id="local-installation">Local Installation</h3>
-<ol type="1">
-<li><a href="https://altair-viz.github.io/getting_started/installation.html">Install Altair and a notebook environment</a>. The most recent versions of these notebooks use <em>Altair version 4</em>.</li>
-<li>Download the notebooks from the <a href="https://github.com/uwdata/visualization-curriculum/releases">releases page</a>. Typically you will want to use the most recent release. (If you wish to use notebooks for Altair version 3, download the <a href="https://github.com/uwdata/visualization-curriculum/releases/tag/altair-v3">Altair v3.2 release</a>.)</li>
-<li>Open the notebooks in your local notebook environment. For example, if you have JupyterLab installed (v1.0 or higher is required), run <code>jupyter lab</code> within the directory containing the notebooks.</li>
-</ol>
-<p>Depending on your programming environment (and whether or not you have a live internet connection), you may want to specify a particular <a href="https://altair-viz.github.io/user_guide/display_frontends.html">renderer</a> for Altair.</p>
-</section>
-</section>
-<section id="credits" class="level2">
-<h2 class="anchored" data-anchor-id="credits">Credits</h2>
-<p>Developed at the University of Washington by Jeffrey Heer, Dominik Moritz, Jake VanderPlas, and Brock Craft. Thanks to the <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a> and Arvind Satyanarayan for their valuable input and feedback! Thanks also to the students of <a href="https://courses.cs.washington.edu/courses/cse512/19sp/">UW CSE512 Spring 2019</a>, the first group to use these notebooks within an integrated course curriculum.</p>
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Introduction to Altair</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Vega-Lite: Grammar of Interactive Graphics</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://player.vimeo.com/video/789513744" frameborder="0" allow="autoplay; title=" "="" fullscreen;="" picture-in-picture"="" allowfullscreen=""></iframe></div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-video ratio ratio-16x9"><iframe src="https://player.vimeo.com/video/228919603" frameborder="0" allow="autoplay; title=" "="" fullscreen;="" picture-in-picture"="" allowfullscreen=""></iframe></div>
+</div>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
