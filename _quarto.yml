@@ -1,7 +1,8 @@
 project:
   type: website
   output-dir: _site
-  
+execute:
+  freeze: auto
 website:
   title: Data visualization course
   page-footer:
@@ -19,7 +20,7 @@ website:
     #       text: "https://github.com/dkapitan/data-viz-course"
     logo: altair-hist.png
     contents:
-      - index.md
+      - index.qmd
       - section: Altair
         contents:
           - docs/altair_introduction.ipynb
@@ -29,14 +30,13 @@ website:
           - docs/altair_view_composition.ipynb
           - docs/altair_interaction.ipynb
           - docs/altair_cartographic.ipynb
-      - section: Support
-        contents:
           - docs/altair_debugging.ipynb
+      - section: Streamlit
+      - section: Quarto
 toc: true
 format:
   html:
     theme: zephyr
     code-link: true
-execute:
-  freeze: auto
+
 
